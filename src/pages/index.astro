@@ -1,11 +1,55 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import { AstroIcon, FileTextIcon, GithubIcon, TailwindIcon } from '@/components/icons'
+import { Button, ThemeToggle } from '@/components/ui'
+import Layout from '@/layouts/Layout.astro'
 ---
 
 <Layout>
-	<Welcome />
+  <main
+    class="relative flex min-h-screen flex-col items-center justify-center px-6 py-20 gap-12 sm:px-20 overflow-x-hidden"
+  >
+    <div class="flex flex-nowrap items-center justify-center gap-8 sm:gap-12">
+      <AstroIcon class="size-16 sm:size-20" />
+      <h6 class="text-3xl font-bold">+</h6>
+      <TailwindIcon class="size-16 sm:size-20" />
+    </div>
+
+    <div class="text-center max-w-xl mx-auto space-y-4">
+      <h2 class="text-2xl font-bold">Welcome to your Astro + Tailwind starter!</h2>
+      <p class="text-sm sm:text-base text-gray-600 dark:text-gray-300">
+        This is a clean starter template. Start building your project by editing
+        <code class="rounded bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 font-semibold">
+          src/pages/index.astro</code
+        >.
+      </p>
+    </div>
+
+    <div class="flex flex-wrap gap-4 justify-center">
+      <a
+        href="https://github.com/jaycodev/astro-tailwind-starter"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button>
+          <GithubIcon class="size-4" />
+          GitHub
+        </Button>
+      </a>
+
+      <a
+        href="https://github.com/jaycodev/astro-tailwind-starter#readme"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button variant="secondary">
+          <FileTextIcon class="size-4" />
+          Readme
+        </Button>
+      </a>
+    </div>
+
+    <div class="fixed bottom-4 right-4 sm:bottom-8 sm:right-8">
+      <ThemeToggle />
+    </div>
+  </main>
 </Layout>

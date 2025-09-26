@@ -1,0 +1,6 @@
+export { default as AstroIcon } from './AstroIcon.astro'
+export { default as FileTextIcon } from './FileTextIcon.astro'
+export { default as GithubIcon } from './GithubIcon.astro'
+export { default as MoonIcon } from './MoonIcon.astro'
+export { default as SunIcon } from './SunIcon.astro'
+export { default as TailwindIcon } from './TailwindIcon.astro'
