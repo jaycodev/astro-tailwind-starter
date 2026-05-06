@@ -1,10 +1,9 @@
 ---
-import AstroIcon from '@/components/icons/AstroIcon.astro'
-import FileTextIcon from '@/components/icons/FileTextIcon.astro'
-import GithubIcon from '@/components/icons/GithubIcon.astro'
-import TailwindIcon from '@/components/icons/TailwindIcon.astro'
 import Button from '@/components/ui/Button.astro'
-import ThemeToggle from '@/components/ui/ThemeToggle.astro'
+import AstroIcon from '@/icons/astro.svg'
+import FileTextIcon from '@/icons/file-text.svg'
+import GithubIcon from '@/icons/github.svg'
+import TailwindIcon from '@/icons/tailwind.svg'
 import Layout from '@/layouts/Layout.astro'
 ---
 
@@ -20,9 +19,9 @@ import Layout from '@/layouts/Layout.astro'
 
     <div class="text-center max-w-xl mx-auto space-y-4">
       <h2 class="text-2xl font-bold">Welcome to your Astro + Tailwind starter!</h2>
-      <p class="text-sm sm:text-base text-gray-600 dark:text-gray-300">
+      <p class="text-sm sm:text-base text-gray-600">
         This is a clean starter template. Start building your project by editing
-        <code class="rounded bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 font-semibold">
+        <code class="rounded bg-black/[.05] px-1 py-0.5 font-semibold">
           src/pages/index.astro</code
         >.
       </p>
@@ -50,10 +49,6 @@ import Layout from '@/layouts/Layout.astro'
           Readme
         </Button>
       </a>
-    </div>
-
-    <div class="fixed bottom-4 right-4 sm:bottom-8 sm:right-8">
-      <ThemeToggle />
     </div>
   </main>
 </Layout>
