@@ -85,6 +85,6 @@ export default defineConfig([
   },
 
   {
-    ignores: ['node_modules/**', 'dist/**', '.astro/**'],
+    ignores: ['node_modules/**', 'dist/**', '.astro/**', '.vercel/**'],
   },
 ])
