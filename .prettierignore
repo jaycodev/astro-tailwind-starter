@@ -4,6 +4,10 @@ pnpm-lock.yaml
 dist/
 build/
 .astro/
+.vercel
+
+public/
 
 README.md
 LICENSE
+*.md
