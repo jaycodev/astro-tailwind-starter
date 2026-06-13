@@ -1,9 +1,5 @@
 ---
 import Button from '@/components/ui/Button.astro'
-import AstroIcon from '@/icons/astro.svg'
-import FileTextIcon from '@/icons/file-text.svg'
-import GithubIcon from '@/icons/github.svg'
-import TailwindIcon from '@/icons/tailwind.svg'
 import Layout from '@/layouts/Layout.astro'
 ---
 
@@ -12,9 +8,46 @@ import Layout from '@/layouts/Layout.astro'
     class="relative flex min-h-screen flex-col items-center justify-center px-6 py-20 gap-12 sm:px-20 overflow-x-hidden"
   >
     <div class="flex flex-nowrap items-center justify-center gap-8 sm:gap-12">
-      <AstroIcon class="size-16 sm:size-20" />
+      <svg
+        class="size-16 sm:size-20"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 85 107"
+        ><path
+          fill="#fff"
+          d="M27.59 91.137c-4.834-4.42-6.246-13.704-4.232-20.43 3.492 4.241 8.33 5.584 13.342 6.343 7.737 1.17 15.336.732 22.523-2.804.822-.405 1.582-.943 2.48-1.489.675 1.957.85 3.932.615 5.943-.573 4.896-3.01 8.678-6.885 11.545-1.55 1.147-3.19 2.172-4.79 3.253-4.917 3.323-6.247 7.22-4.4 12.888.044.139.084.277.183.614-2.51-1.124-4.344-2.76-5.742-4.911-1.475-2.27-2.177-4.78-2.214-7.498-.019-1.322-.019-2.656-.197-3.96-.434-3.178-1.926-4.601-4.737-4.683-2.884-.084-5.166 1.699-5.771 4.507-.046.216-.113.429-.18.68z"
+        ></path><path
+          fill="url(#paint0_linear_1_59)"
+          d="M27.59 91.137c-4.834-4.42-6.246-13.704-4.232-20.43 3.492 4.241 8.33 5.584 13.342 6.343 7.737 1.17 15.336.732 22.523-2.804.822-.405 1.582-.943 2.48-1.489.675 1.957.85 3.932.615 5.943-.573 4.896-3.01 8.678-6.885 11.545-1.55 1.147-3.19 2.172-4.79 3.253-4.917 3.323-6.247 7.22-4.4 12.888.044.139.084.277.183.614-2.51-1.124-4.344-2.76-5.742-4.911-1.475-2.27-2.177-4.78-2.214-7.498-.019-1.322-.019-2.656-.197-3.96-.434-3.178-1.926-4.601-4.737-4.683-2.884-.084-5.166 1.699-5.771 4.507-.046.216-.113.429-.18.68z"
+        ></path><path
+          fill="currentColor"
+          d="M0 69.587s14.314-6.973 28.668-6.973L39.49 29.12c.405-1.62 1.588-2.72 2.924-2.72s2.518 1.1 2.924 2.72L56.16 62.614c17 0 28.668 6.973 28.668 6.973S60.514 3.352 60.467 3.219C59.769 1.261 58.591 0 57.003 0H27.827c-1.588 0-2.718 1.261-3.464 3.22C24.311 3.35 0 69.586 0 69.586"
+        ></path><defs
+          ><linearGradient
+            id="paint0_linear_1_59"
+            x1="22.47"
+            x2="69.145"
+            y1="107"
+            y2="84.947"
+            gradientUnits="userSpaceOnUse"
+            ><stop stop-color="#d83333"></stop><stop offset="1" stop-color="#f041ff"
+            ></stop></linearGradient
+          ></defs
+        ></svg
+      >
       <h6 class="text-3xl font-bold">+</h6>
-      <TailwindIcon class="size-16 sm:size-20" />
+      <svg class="size-16 sm:size-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 33"
+        ><g clip-path="url(#tailwindcss__a)"
+          ><path
+            fill="#38bdf8"
+            fill-rule="evenodd"
+            d="M27 0Q16.2 0 13.5 10.8q4.05-5.4 9.45-4.05c2.054.513 3.522 2.004 5.147 3.653C30.744 13.09 33.808 16.2 40.5 16.2q10.8 0 13.5-10.8-4.05 5.4-9.45 4.05c-2.054-.513-3.522-2.004-5.147-3.653C36.756 3.11 33.692 0 27 0M13.5 16.2Q2.7 16.2 0 27q4.05-5.4 9.45-4.05c2.054.514 3.522 2.004 5.147 3.653C17.244 29.29 20.308 32.4 27 32.4q10.8 0 13.5-10.8-4.05 5.4-9.45 4.05c-2.054-.513-3.522-2.004-5.147-3.653C23.256 19.31 20.192 16.2 13.5 16.2"
+            clip-rule="evenodd"></path></g
+        ><defs
+          ><clipPath id="tailwindcss__a"><path fill="#fff" d="M0 0h54v32.4H0z"></path></clipPath
+          ></defs
+        ></svg
+      >
     </div>
 
     <div class="text-center max-w-xl mx-auto space-y-4">
@@ -32,7 +65,15 @@ import Layout from '@/layouts/Layout.astro'
         rel="noopener noreferrer"
       >
         <Button>
-          <GithubIcon class="size-4" />
+          <svg
+            class="size-4"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            ><path
+              d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+            ></path></svg
+          >
           GitHub
         </Button>
       </a>
@@ -43,7 +84,18 @@ import Layout from '@/layouts/Layout.astro'
         rel="noopener noreferrer"
       >
         <Button variant="secondary">
-          <FileTextIcon class="size-4" />
+          <svg
+            class="size-4"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            ><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path
+              d="M14 2v4a2 2 0 0 0 2 2h4M10 9H8m8 4H8m8 4H8"></path></svg
+          >
           Readme
         </Button>
       </a>
