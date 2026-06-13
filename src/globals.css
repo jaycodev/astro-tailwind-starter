@@ -5,6 +5,8 @@
   --color-foreground: var(--foreground);
   --color-muted-foreground: var(--muted-foreground);
   --color-border: var(--border);
+
+  --breakpoint-xs: 30rem;
 }
 
 :root {
