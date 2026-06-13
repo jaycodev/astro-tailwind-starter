@@ -7,6 +7,8 @@
 
 <div align="center">
 
+# Astro + Tailwind CSS Starter
+
 ![Astro](https://img.shields.io/badge/Astro-16191f?style=flat&logo=astro&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white&style=flat)
 
