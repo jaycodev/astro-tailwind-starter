@@ -43,5 +43,6 @@
     "**/.astro": true,
     "**/node_modules": true,
     "**/.vercel": true
-  }
+  },
+  "css.lint.unknownAtRules": "ignore"
 }
